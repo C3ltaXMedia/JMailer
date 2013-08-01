@@ -1,0 +1,4 @@
+RewriteEngine On
+
+RewriteRule ^([a-zA-Z0-9-/]+)$ empfangen.php?benutzername=$1
+RewriteRule ^([a-zA-Z0-9-/]+)/$ empfangen.php?benutzername=$1
